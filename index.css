@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+}
+
+.card-hdr-icons {
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    align-self: center;
+}
+
+.i-hdr {
+    width: 35px;
+    align-self: center;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 300px;
+    color: white;
+}
+
+.lower {
+    text-align: center;
+    margin-top: 8px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+    font-size: 16px;
+}
+
+.interact-btns {
+    cursor: pointer; 
+    margin-right: 20px;
+}
+
+.interact-btns:hover {
+    box-shadow: 0 0 5px 1px gray;
+}
+
+.hidden-like {
+    position: absolute;
+    width: 150px;
+    left: 20px;
+    top: 50px;
+    transform: rotate(-45deg);
+}
+
+.hidden-cross {
+    position: absolute;
+    width: 150px;
+    left: 20px;
+    top: 50px;
+    transform: rotate(-45deg);
+}
+
