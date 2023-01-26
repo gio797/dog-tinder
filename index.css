@@ -35,8 +35,8 @@ header{
 
 .card-info {
     position: absolute;
-    bottom: 90px;
-    left: 30px;
+    bottom: 100px;
+    left: 20px;
     width: 300px;
     color: white;
 }
@@ -49,17 +49,22 @@ footer {
     margin-top: 5px;
 }
 
-.interact-btns {
-    width: 50px;
-    height: 50px;
+button {
     box-shadow: 0px 10px 20px #E9E9EA;
+    background-color: white;
     cursor: pointer; 
-    border-radius: 50%;
-    padding: 5px;
+    border-radius: 51%;
+    padding: 20px;
     border: none;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-.interact-btns:hover {
+button img {
+    width: 25px;
+}
+
+button:hover {
     background-color: #DBFFF4;
 }
 
