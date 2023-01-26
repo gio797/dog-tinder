@@ -20,18 +20,26 @@ function getNewDog() {
 document.getElementById('heart').addEventListener('click', () => {
         dogProfile.matchingStatus(false, true)
         render()
+        document.getElementById('heart').disabled = true
+        document.getElementById('cross').disabled = true
         setTimeout(function(){
             dogProfile = getNewDog()
             render()
+            document.getElementById('heart').disabled = false
+            document.getElementById('cross').disabled = false
         },1000)
 })
 
 document.getElementById('cross').addEventListener('click', () => {
         dogProfile.matchingStatus(true, false)
         render()
+        document.getElementById('heart').disabled = true
+        document.getElementById('cross').disabled = true
         setTimeout(function(){
             dogProfile = getNewDog()
             render()
+            document.getElementById('heart').disabled = false
+            document.getElementById('cross').disabled = false
         },1000)
 })
 
